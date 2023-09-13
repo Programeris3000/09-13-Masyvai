@@ -1,0 +1,47 @@
+Viskas kas yra sinonimai is principo yra duomenu masyvas
+Norint sukurti masyva
+Masyve gali visokios reiksmes: stringas, skaicius, boolean ir t,t
+
+Kuriame masyva taip:
+let numArray = [5, 500, -5, 34.5]  Kiek noriu tiek dedu nariu i sarasa.
+         indexas0   1    2    3
+
+Jei norim pasiekti konkretu masyvo nari tai padaryti galime taip.
+numsArray[] Tarp lauztiniu skliaustu rasome masyo nario indexa.
+
+Jei norim pasiimti is masyvo kita masyva console.log(newArr[5][2]) 
+
+Jei norim pakeist esama masyvo nario reiksme
+newArr [1] = 2
+
+jei norim pridet nari prie masyvo
+
+Visi masyvai yra Objektai
+metodai yra funkcijos sukurtos tiesiogiai objektuse
+
+Keturi metodai nuo kuriu visi pradeda 
+pop paima paskutini nari
+shift Paima pirma nari
+push Prie pasirinkto masyvo priededa nari i gala. Naudojam push('Vilnius')
+unshift prie pasirinkto masyva prideda nari i prieki. Naudojama unshift('Nida')
+
+
+
+Jeigu mums reikia masyvo metodo pirmiausia reikia masyvo.
+
+let cities = [`vilnius`, 'Kaunas', 'Siauliai']
+
+let lastCity = cities.pop()
+console.log(lastCity)
+
+
+Slice nemodifikuoja orginalaus masyvo.
+animals.slice(2, 4) grazins dvi salis
+
+Pjuvis visada eina i desine puse ir nuo kablelio iki kablelio. 
+
+Splice metodas
+Modifikuoja ir mutuoja orginalu masyva.
+nums.splice(2, 3)  Nuo antro tris ispjauti. 3, 4 , 5.
+
+
